@@ -226,6 +226,9 @@ html[data-theme='dark'] .product-art { filter: saturate(.94) brightness(.82) con
 .verdict-card p { max-width: 710px; margin-bottom: 0; color: var(--ink-soft); font-size: 15px; }
 .verdict-link { align-self: end; white-space: nowrap; }
 
+.related-section { margin-top: -50px; padding-bottom: 78px; }
+.related-section > p:last-child { margin-bottom: 0; color: var(--ink-soft); }
+
 .sources-section { padding-bottom: 112px; scroll-margin-top: 90px; }
 .sources-heading { display: grid; grid-template-columns: 1fr 1.2fr 1fr; gap: 7%; align-items: end; margin-bottom: 40px; }
 .sources-heading .section-kicker { align-self: start; }
@@ -309,6 +312,7 @@ html[data-theme='dark'] .product-art { filter: saturate(.94) brightness(.82) con
   .verdict-section { padding-top: 80px; padding-bottom: 80px; }
   .verdict-card { grid-template-columns: 1fr; gap: 22px; padding: 23px; }
   .verdict-link { grid-column: auto; }
+  .related-section { margin-top: -32px; padding-bottom: 58px; }
   .sources-section { padding-bottom: 80px; }
   .sources-heading { display: block; }
   .sources-heading h2 { margin-bottom: 20px; }
