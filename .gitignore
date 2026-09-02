@@ -1,0 +1,16 @@
+# Local planning and research — not part of the public site
+BRAND-DOMAIN-RESEARCH.md
+CANDIDATE-RESEARCH.md
+LAUNCH-PLAN.md
+LOG.md
+PRODUCT-EVIDENCE.md
+PROJECT.md
+STATUS.md
+TODO.md
+brief.md
+
+# Temporary authenticated-browser research utilities
+tmp-*.mjs
+
+# Local system files
+.DS_Store

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Inner North Journal astral north-star mark">
+  <defs>
+    <radialGradient id="sky" cx="34%" cy="28%" r="78%">
+      <stop offset="0" stop-color="#8b6aa8"/>
+      <stop offset="0.48" stop-color="#3e436f"/>
+      <stop offset="1" stop-color="#17213c"/>
+    </radialGradient>
+    <linearGradient id="ray" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f6d889"/>
+      <stop offset="0.52" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#e68067"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="url(#sky)"/>
+  <circle cx="32" cy="32" r="23" fill="none" stroke="#a8cbbd" stroke-opacity=".62" stroke-width="1.5"/>
+  <circle cx="32" cy="32" r="15" fill="#17213c" fill-opacity=".38" stroke="#f6d889" stroke-opacity=".45"/>
+  <path d="M32 9 35.6 27.4 55 32l-19.4 4.6L32 56l-3.6-19.4L9 32l19.4-4.6Z" fill="url(#ray)"/>
+  <circle cx="32" cy="32" r="4.5" fill="#fffdf8"/>
+  <circle cx="47.5" cy="16.5" r="2" fill="#e68067"/>
+</svg>
