@@ -1,9 +1,8 @@
 /* Inner North Journal editorial homepage */
 .home-page { background-color: var(--paper); background-image: radial-gradient(circle at 82% 7%, color-mix(in srgb, var(--coral) 8%, transparent), transparent 29rem); }
-.home-hero { min-height: 790px; padding-top: 160px; padding-bottom: 90px; display: grid; grid-template-columns: minmax(0, .88fr) minmax(460px, 1fr); gap: 8%; align-items: center; }
+.home-hero { min-height: 790px; padding-top: 196px; padding-bottom: 90px; display: grid; grid-template-columns: minmax(0, .88fr) minmax(460px, 1fr); gap: 8%; align-items: center; }
 .home-hero-copy h1 { max-width: 690px; margin-bottom: 28px; font-size: clamp(58px, 6.8vw, 98px); }
 .home-hero-deck { max-width: 590px; margin-bottom: 31px; color: var(--ink-soft); font-size: 19px; line-height: 1.55; }
-.home-disclosure { max-width: 590px; margin: 58px 0 0; color: var(--ink-soft); font-size: 11px; line-height: 1.55; }
 .home-hero-figure { position: relative; min-width: 0; margin: 0; }
 .home-hero-figure > img { width: 100%; height: 560px; display: block; object-fit: cover; border: 1px solid var(--line); box-shadow: var(--shadow); filter: saturate(.88) contrast(1.03); }
 html[data-theme='dark'] .home-hero-figure > img { filter: saturate(.96) brightness(.82) contrast(1.07); }
@@ -94,10 +93,9 @@ html[data-theme='dark'] .path-card > img { filter: saturate(.94) brightness(.82)
 }
 
 @media (max-width: 620px) {
-  .home-hero { min-height: auto; padding-top: 132px; padding-bottom: 70px; }
+  .home-hero { min-height: auto; padding-top: 178px; padding-bottom: 70px; }
   .home-hero-copy h1 { font-size: clamp(48px, 14vw, 68px); }
   .home-hero-deck { font-size: 16px; }
-  .home-disclosure { margin-top: 40px; }
   .home-hero-figure > img { height: 380px; }
   .home-hero-figure figcaption { right: 0; bottom: 18px; width: calc(100% - 28px); padding: 17px; }
   .home-signal-inner { min-height: 0; grid-template-columns: 1fr 1fr; gap: 11px 18px; padding-top: 22px; padding-bottom: 22px; }
